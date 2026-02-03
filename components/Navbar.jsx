@@ -108,7 +108,7 @@ const Navbar = () => {
                     }
                 </div>
 
-                <button onClick={() => { setOpenNav(!openNav) }} className='md:hidden ml-3 text-xl z-50'>
+                <button onClick={() => { setOpenNav(!openNav) }} className='md:hidden ml-3 text-xl z-50 text-[#f5f5f5]'>
                     {
                         openNav ? <IoMdClose /> : <HiMenuAlt3 />
                     }
